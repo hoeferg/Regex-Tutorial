@@ -56,6 +56,8 @@ Flags are added at the end of regex to add additional features. There are a tota
 
 ### Character Escapes
 
+Character escapes allow the user to use a term literally instead of the meaning in regex. In order to use a character escape you have to put a slash(/) in front of the character. This will make the character lose its meaning in the regex. For instance, instead of using ^ to represent the start of a regex, the user can put a slash in front and have the program search for a ^ in the program. In the example code, the scenario listed above would look like ^/^[+-]?([1-9]\d$.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This report was created by Gayle Hoefer. Gayle Hoefer is a full stack web developer and is currently attending the University of Arizona Bootcamp. To see more work by Gayle Hoefer please visit https://github.com/hoeferg.
