@@ -50,8 +50,9 @@ Character classes are a regex component that allows the user to match only one c
 
 The or operator allows the user to search for a list of terms as a whole and by individual characteristics. The or operator looks like (|). For example, this|that|them is an or code that means the computer will highlight the word this and that and them. The words do not need to be connected and each section will be looked for independently from each other. An example of the code is (1|2|3):(4|5|6). This will look for the string 123:456 and 1:6. In the example, ^[+-]?([1-9]\d$, will be rewritten to look like the following: ^ |[+-]| |?([1-9]\d| $. This will make the computer find those patterns separate from the other part of the regex.
 
-
 ### Flags
+
+Flags are added at the end of regex to add additional features. There are a total of six flags. The three most common are g, i, and m. The g flag means that the program should run a global search to find all possible matches. The i flag means that case should be ignored in the search. The m flag means an input should be treated as multiple lines. Using the example code ^[+-]?([1-9]\d$, the user can add a g at the end and make the regex look like this: ^[+-]?([1-9]\d$ -g. This will search for the matching pattern globally.
 
 ### Character Escapes
 
