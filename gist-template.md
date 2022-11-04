@@ -34,6 +34,8 @@ Quantifiers are used to limit the amount of characters you want to search for. A
 
 ### Grouping Constructs
 
+Grouping constructs is when you separate parts of the regex into sections so that each part can be tested. You separate each section in the code using parentheses (). For example our code ^[+-]?([1-9]\d$ can be broken into (^[+-]?) ([1-9]\d$). With these two sections, the user can ensure that the regex is searching for the right parameters.
+
 ### Bracket Expressions
 
 ### Character Classes
