@@ -24,6 +24,10 @@ Regex is made up of many different components. The components of a regex include
 
 ### Anchors
 
+Anchors are the characters that signify the start or the end of the string. A carrot (^) anchor represents the start of a string. The character that follows the carrot will be the first part of the pattern that the code starts to look for. For instance, in the example ^[+-]?([1-9]\d$, the regex is started by a carrot so that the beginning of the search will start there.
+ 
+The other anchor character is a dollar sign ($). The dollar sign is used at the end of a regex. This tells the program that this is the end of the search parameter that it is looking for. In ^[+-]?([1-9]\d$, it ends in a dollar sign to represent the end of the search parameter. 
+
 ### Quantifiers
 
 ### Grouping Constructs
