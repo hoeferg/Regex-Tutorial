@@ -44,6 +44,8 @@ Brackets can be used with a dash as well. These represent a range in the search 
 
 ### Character Classes
 
+Character classes are a regex component that allows the user to match only one character out of several characters. For instance you can type gr[ae]y. The computer will highlight both gray and grey. Character classes can also be applied to numbers. For instance, in ^[+-]?([1-9]\d$ [1-9] will highlight a single digit that is within that range. The biggest use of this feature is to help find words even if they are misspelled
+
 ### The OR Operator
 
 ### Flags
