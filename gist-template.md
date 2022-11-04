@@ -30,6 +30,8 @@ The other anchor character is a dollar sign ($). The dollar sign is used at the 
 
 ### Quantifiers
 
+Quantifiers are used to limit the amount of characters you want to search for. An example of a quantifier is ({ 4, 17 }). This means that the search for the pattern will have to include a minimum of four characters and a maxim of seventeen. When quantifiers are used, they want to find as many examples of the pattern as possible. This can generate a large amount of results. A way to fix this is to have it end in a question mark (?). A question mark makes the program search for as few matches as possible. In the example code, if we add ({ 4, 17 }) to ^[+-]?([1-9]\d({4,17}); the ({ 4, 17 }) is a quantifier.
+
 ### Grouping Constructs
 
 ### Bracket Expressions
