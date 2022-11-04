@@ -1,6 +1,6 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Regular Expressions (regex)
+ 
+A regular expression is a wonderful tool that a coder can use. This search parameter is similar to control f but with one major difference. Instead of searching for a set of characters, a regular expression is searching for a pattern in the code. This code could be a string of numbers, a set amount of characters, or many other variations. 
 
 ## Summary
 
