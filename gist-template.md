@@ -38,6 +38,10 @@ Grouping constructs is when you separate parts of the regex into sections so tha
 
 ### Bracket Expressions
 
+Bracket expressions look like a bracket ([]) in regex. These represent the range of characters we want to search for. If we had the example [and] the regex will search for anything that has any single character in that list. For instance apple and neat would be highlighted. 
+ 
+Brackets can be used with a dash as well. These represent a range in the search parameters. A bracket can also include anchors and other regex components. In our example ^[+-]?([1-9]\d$, [1-9] is a bracket expression. In this bracket expression we are searching for a number between one and nine. 
+
 ### Character Classes
 
 ### The OR Operator
