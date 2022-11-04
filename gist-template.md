@@ -3,8 +3,9 @@
 A regular expression is a wonderful tool that a coder can use. This search parameter is similar to control f but with one major difference. Instead of searching for a set of characters, a regular expression is searching for a pattern in the code. This code could be a string of numbers, a set amount of characters, or many other variations. 
 
 ## Summary
+ 
+The regular expression (which will be referred to as regex from now on), is meant to be used to help find a pattern within code. This will allow the coder to find the pattern that they need to make edits to. To assist in the understanding of regex, I will be referring to the following regex: ^[+-]?([1-9]\d$. In the following section this regex will be broken down to its components and each component will be explained.
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 ## Table of Contents
 
