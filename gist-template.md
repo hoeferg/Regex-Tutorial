@@ -20,6 +20,8 @@ The regular expression (which will be referred to as regex from now on), is mean
 
 ## Regex Components
 
+Regex is made up of many different components. The components of a regex include single characters, wild cards, bracket expressions, control characters, escape character sets, anchors, and recursive expansion. All of these have an overall term of atoms. These atoms are what create each individual part of a regex. In the regex example ^[+-]?([1-9]\d$, every single individual part is an atom.
+
 ### Anchors
 
 ### Quantifiers
