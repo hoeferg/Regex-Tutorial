@@ -1,5 +1,7 @@
 # Regex Tutorial
 
+<img src= "regex.png" />
+
 ## Table of Contents  
 * [Description](##Description)  
 * [Installation](##Installation)  
